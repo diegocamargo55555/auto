@@ -1,0 +1,16 @@
+myHash={
+    "Key" => "value",
+    "Key2" => "value2"
+}
+
+puts myHash["Key"] # puts value
+
+#or both are the same
+ 
+myHash=Hash.new()
+myHash[:Key]="value"
+myHash[:Key2]="value2"
+
+
+puts myHash[:Key] # puts "value"
+
